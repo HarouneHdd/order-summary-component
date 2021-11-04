@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Red Hat Display";
+    src: url(https://fonts.google.com/specimen/Red+Hat+Display) format('truetype');
+}
+
+/* || General setup */
+
+html {
+    font-size: 16px;
+    font-family: "Red Hat Display", "Helvetica", "Arial";
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* || Constants */
+/* || Colors -------------------------------- **/
+/* Primary */
+.pale-blue {
+    color: 	#e0e8ff;
+}
+.bright-blue {
+    color: 	#3829e0;
+}
+/* Neutral */
+.very-pale-blue {
+    color: 	#f5f7ff;
+}
+.desaturated-blue {
+    color: #7280a7;
+}
+.dark-blue {
+    color: #1f2f56;
+}
+/* ------------------------------------------ **/
+
+.flex {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
