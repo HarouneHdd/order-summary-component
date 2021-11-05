@@ -35,8 +35,37 @@ p {
 }
 /* ------------------------------------------ **/
 
-.flex {
+/* || Layout */
+.flex-container {
     display: flex;
-    justify-content: center;
-    background-color: aquamarine;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+    width: 375px;
+    border-radius: 5%;
+}
+.flex-column-direction {
+    flex-direction: column;
+}
+
+#hero-banner img {
+    width: 100%;
+    height: auto;
+}
+#main-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    width: 100%;
+}
+
+/* || Components */
+.button-inline-style {
+
+}
+.button-main-style {
+
+}
+.button-cancel-style {
+
 }
