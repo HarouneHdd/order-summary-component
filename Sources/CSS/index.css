@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Red Hat Display";
-    src: url(https://fonts.google.com/specimen/Fruktur) format("truetype");
+    src: url(../Fonts/RedHatDisplay-VariableFont_wght.ttf) format("truetype");
 }
 
 /* || General setup */
@@ -40,6 +40,9 @@ p {
 .dark-blue {
     color: #1f2f56;
 }
+.bold-text {
+    font-weight: 700;
+}
 /* ------------------------------------------ **/
 
 /* || Layout */
@@ -73,11 +76,11 @@ p {
     width: 100%;
     height: 50px;
     padding-top: 40px;
-    text-align: center;
 }
 #main-title h1 {
+    text-align: center;
     font-size: 1.75rem;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 #pitch-paragraph {
@@ -85,7 +88,29 @@ p {
 }
 #pitch-paragraph p {
     text-align: center;
-    color: rgb(116, 116, 116);
+    color: #7f838f;
+    line-height: 1.5rem;
+}
+
+#annual-plan {
+    width: 75%;
+    height: 90px;
+    background-color: #f5f7ff;
+    border-radius: 10px;
+}
+
+#proceed-section {
+
+}
+
+#cancel-section {
+    width: 75%;
+    height: 50px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+#cancel-section button {
+    
 }
 
 /* || Components */
