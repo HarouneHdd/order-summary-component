@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot/mobile-design)
+![project-mobile-design](./Screenshots/mobile-design.png)
+![project-desktop-design](./Screenshots/desktop-design.png)
 
 ## My process
 
