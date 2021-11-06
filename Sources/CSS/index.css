@@ -98,19 +98,36 @@ p {
     background-color: #f5f7ff;
     border-radius: 10px;
 }
+#annual-plan button {
+    border: none;
+    background-color: transparent;
+    color: #3829e0;
+    text-decoration: underline black;
+}
 
 #proceed-section {
-
+    width: 75%;
+}
+#proceed-section button {
+    background-color: #3829e0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    font-weight: 700;
 }
 
 #cancel-section {
     width: 75%;
     height: 50px;
     padding-bottom: 10px;
-    border: 1px solid black;
 }
 #cancel-section button {
-    
+    border: none;
+    background-color: transparent;
+    font-weight: 700;
+    color: grey;
 }
 
 /* || Components */
