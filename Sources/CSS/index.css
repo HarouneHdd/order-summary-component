@@ -115,6 +115,11 @@ p {
     color: #3829e0;
     text-decoration: underline black;
 }
+#annual-plan button:hover {
+    color: #756ecb;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 #proceed-section {
     width: 78%;
@@ -130,6 +135,10 @@ p {
     font-weight: 700;
     box-shadow: 0px 14px 20px #7280a750;
 }
+#proceed-section button:hover {
+    background-color: #766cf1;
+    cursor: pointer;
+}
 
 #cancel-section {
     width: 78%;
@@ -141,4 +150,8 @@ p {
     background-color: transparent;
     font-weight: 900;
     color: grey;
+}
+#cancel-section button:hover {
+    color: black;
+    cursor: pointer;
 }
