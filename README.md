@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-A screenshot should be inserted here
+![](./Screenshot/mobile-design)
 
 ## My process
 
