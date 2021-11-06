@@ -202,13 +202,13 @@ p {
     }
     #proceed-section button {
         height: 50px;
-        box-shadow: 0px 14px 20px #7280a750;
+        box-shadow: 0px 12px 20px #7280a750;
     }
     
     #cancel-section {
         width: 78%;
         height: 30px;
         padding-bottom: 30px;
-        margin-top: 0;
+        margin-top: 5px;
     }
 }
