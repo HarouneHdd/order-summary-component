@@ -168,7 +168,6 @@ p {
     .flex-container-plan {
         width: 445px;
         height: 680px;
-        border-radius: 20px;
     }
 
     #main-title {
@@ -178,7 +177,6 @@ p {
     }
     #main-title h1 {
         font-size: 1.75rem;
-        font-weight: 900;
     }
     
     #pitch-paragraph {
@@ -186,14 +184,10 @@ p {
         padding-bottom: 5px;
         padding-top: 0px;
     }
-    #pitch-paragraph p {
-        line-height: 1.5rem;
-    }
     
     #annual-plan {
         width: 78%;
         height: 90px;
-        border-radius: 10px;
     }
     #annual-plan div {
         width: 50%;
@@ -207,10 +201,7 @@ p {
         padding-top: 0;
     }
     #proceed-section button {
-        border-radius: 8px;
-        width: 100%;
         height: 50px;
-        font-weight: 700;
         box-shadow: 0px 14px 20px #7280a750;
     }
     
