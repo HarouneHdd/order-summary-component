@@ -21,7 +21,7 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-- See that there is a desktop vervion and a mobile version
+- See that there is a desktop version and a mobile version
 
 ### Screenshot
 
