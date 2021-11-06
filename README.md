@@ -7,6 +7,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -27,6 +28,10 @@ Users should be able to:
 
 ![project-desktop-design](./Screenshots/desktop-design.jpg)
 ![project-mobile-design](./Screenshots/mobile-design.jpg)
+
+### Links
+
+- Live Site URL: [https://harounehdd.github.io/order-summary-component/](https://harounehdd.github.io/order-summary-component/)
 
 ## My process
 
