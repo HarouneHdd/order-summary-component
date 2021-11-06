@@ -53,20 +53,21 @@ p {
     justify-content: center;
     background-color: white; 
 }
-.flex-container-plan {
-    flex-direction: column;
-    width: 445px;
-    height: 680px;
-    border-radius: 20px;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-}
 
 /* || Components */
 @media only screen and (min-width: 375px) {
+    .flex-container-plan {
+        flex-direction: column;
+        width: 335px;
+        height: 578px;
+        border-radius: 20px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+
     #hero-banner img {
         width: 100%;
         height: auto;
@@ -76,18 +77,19 @@ p {
     
     #main-title {
         width: 100%;
-        height: 50px;
-        padding-top: 40px;
+        height: 29px;
+        padding-top: 28px;
     }
     #main-title h1 {
         text-align: center;
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         font-weight: 900;
     }
     
     #pitch-paragraph {
-        width: 70%;
-        padding-bottom: 5px;
+        width: 80%;
+        padding-bottom: 15px;
+        padding-top: 17px;
     }
     #pitch-paragraph p {
         text-align: center;
@@ -96,19 +98,19 @@ p {
     }
     
     #annual-plan {
-        width: 78%;
+        width: 84%;
         height: 90px;
         background-color: #f5f7ff;
         border-radius: 10px;
     }
     #annual-plan div {
-        width: 50%;
-        padding-left: 20px;
-        padding-right: 5px;
+        width: 40%;
+        padding-left: 15px;
+        padding-right: 12px;
     }
     #annual-price {
         color: grey;
-        padding-top: 5px;
+        padding-top: 6px;
     }
     #annual-plan button {
         border: none;
@@ -123,8 +125,9 @@ p {
     }
     
     #proceed-section {
-        width: 78%;
+        width: 84%;
         height: 70px;
+        padding-top: 5px;
     }
     #proceed-section button {
         background-color: #3829e0;
@@ -132,9 +135,10 @@ p {
         border: none;
         border-radius: 8px;
         width: 100%;
-        height: 45px;
+        height: 55px;
         font-weight: 700;
-        box-shadow: 0px 14px 20px #7280a750;
+        box-shadow: 0px 10px 20px #7280a750;
+        font-size: 0.95rem;
     }
     #proceed-section button:hover {
         background-color: #766cf1;
@@ -144,13 +148,15 @@ p {
     #cancel-section {
         width: 78%;
         height: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 25px;
+        margin-top: 10px;
     }
     #cancel-section button {
         border: none;
         background-color: transparent;
-        font-weight: 900;
+        font-weight: 700;
         color: grey;
+        font-size: 0.95rem;
     }
     #cancel-section button:hover {
         color: black;
@@ -159,13 +165,18 @@ p {
 }
 
 @media only screen and (min-width: 1440px) {
+    .flex-container-plan {
+        width: 445px;
+        height: 680px;
+        border-radius: 20px;
+    }
+
     #main-title {
         width: 100%;
         height: 50px;
         padding-top: 40px;
     }
     #main-title h1 {
-        text-align: center;
         font-size: 1.75rem;
         font-weight: 900;
     }
@@ -173,17 +184,15 @@ p {
     #pitch-paragraph {
         width: 70%;
         padding-bottom: 5px;
+        padding-top: 0px;
     }
     #pitch-paragraph p {
-        text-align: center;
-        color: #7f838f;
         line-height: 1.5rem;
     }
     
     #annual-plan {
         width: 78%;
         height: 90px;
-        background-color: #f5f7ff;
         border-radius: 10px;
     }
     #annual-plan div {
@@ -191,19 +200,13 @@ p {
         padding-left: 20px;
         padding-right: 5px;
     }
-    #annual-price {
-        color: grey;
-        padding-top: 5px;
-    }
     
     #proceed-section {
         width: 78%;
         height: 70px;
+        padding-top: 0;
     }
     #proceed-section button {
-        background-color: #3829e0;
-        color: white;
-        border: none;
         border-radius: 8px;
         width: 100%;
         height: 50px;
@@ -215,5 +218,6 @@ p {
         width: 78%;
         height: 30px;
         padding-bottom: 30px;
+        margin-top: 0;
     }
 }
