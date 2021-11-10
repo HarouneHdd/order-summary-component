@@ -5,7 +5,7 @@
 
 /* || General setup */
 
-html {
+* {
     font-size: 16px;
     font-family: "Red Hat Display", "Helvetica", "Arial";
 }
