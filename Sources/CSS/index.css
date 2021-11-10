@@ -6,10 +6,11 @@
 /* || General setup */
 
 * {
-    font-size: 16px;
     font-family: "Red Hat Display", "Helvetica", "Arial";
 }
-
+html {
+    font-size: 16px;
+}
 body {
     background-color: #e0e8ff;
     background-image: url("../Images/pattern-background-desktop.svg");
