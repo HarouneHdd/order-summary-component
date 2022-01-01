@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://harounehdd.github.io/order-summary-component/](https://harounehdd.github.io/order-summary-component/)
+- Live Site URL: [https://harounehadid.github.io/order-summary-component/](https://harounehadid.github.io/order-summary-component/)
 
 ## My process
 
